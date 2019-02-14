@@ -1,0 +1,60 @@
+body{
+	background: url("images/bg.png");
+}
+
+
+*:hover{
+	border: 2px yellow solid;
+}
+
+.clr{
+	clear: both;
+}
+
+
+.wrapper{
+	border: 10px white solid;
+	background-color: #fff;
+	margin: 0 10%;
+}
+
+.header{
+	background-color: #A8F0F0;
+	text-align: right;
+}
+
+.header > h2{
+	font-size: 14pt;
+}
+
+.article{
+	border: 4px #C2E9E9 solid;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.article img{
+	float: right;
+}
+
+.article .date{
+	border-bottom: 2px blue dashed;
+}
+
+.sidebar{
+	margin-top: 10px;
+	border: 5px blue solid;
+	float: left;
+	width: 24%;
+	background-color: #E8FBFB; 
+}
+
+.sidebar .text{
+	padding: 10px;
+}
+
+.content{
+	width: 75%;
+	float: right;
+}
